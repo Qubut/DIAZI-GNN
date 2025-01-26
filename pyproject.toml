@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "gnn"
+version = "0.1.0"
+description = ""
+authors = ["Qubut <s-aahmed@haw-landshut.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+neo4j = "^5.27.0"
+returns = "^0.24.0"
+aiofiles = "^24.1.0"
+python-dotenv = "^1.0.1"
+loguru = "^0.7.2"
+asyncstdlib = "^3.13.0"
+numpy = "^2.1.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
