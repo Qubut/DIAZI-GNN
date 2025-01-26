@@ -1,3 +1,6 @@
+MATCH (n) RETURN n LIMIT 25;
+
+
 MATCH (n)-[r]-(connected)
 WHERE n:State
 RETURN n, r, connected
