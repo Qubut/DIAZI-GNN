@@ -2,6 +2,8 @@
 
 This is a streamlined, containerized pipeline that ingests JSON data, constructs a Neo4j graph, and applies the **Leiden** algorithm for community detection. By leveraging **Nix** for development environments, **direnv** for environment variable management, and **Podman** for container orchestration.
 
+![1737878031863](image/README/1737878031863.png)
+
 ## Key Features
 
 - **Automated Graph Creation**: Dynamically constructs nodes and relationships from JSON data.
