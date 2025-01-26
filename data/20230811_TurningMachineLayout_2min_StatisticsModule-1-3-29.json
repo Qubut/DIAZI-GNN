@@ -1,0 +1,866 @@
+{
+  "Author": "DUALIS",
+  "Date": "2023-08-11",
+  "LayoutFileVC": "Turning machine layout.vcmx",
+  "Resources": [
+    {
+      "Activities": [
+        {
+          "Description": "Waiting for next task at RobotController",
+          "Distance": 0.0,
+          "EndTime": 44.146,
+          "Position": "RobotController",
+          "Products": [],
+          "StartTime": 0.0,
+          "State": "Idle"
+        },
+        {
+          "Description": "BusyHandling at RobotController",
+          "Distance": 0.0,
+          "EndTime": 51.081,
+          "Position": "RobotController",
+          "Products": [],
+          "StartTime": 44.146,
+          "State": "BusyHandling"
+        },
+        {
+          "Description": "Waiting for next task at RobotController",
+          "Distance": 0.0,
+          "EndTime": 54.471,
+          "Position": "RobotController",
+          "Products": [],
+          "StartTime": 51.081,
+          "State": "Idle"
+        },
+        {
+          "Description": "BusyHandling at RobotController",
+          "Distance": 0.0,
+          "EndTime": 61.735,
+          "Position": "RobotController",
+          "Products": [],
+          "StartTime": 54.471,
+          "State": "BusyHandling"
+        },
+        {
+          "Description": "Waiting for next task at RobotController",
+          "Distance": 0.0,
+          "EndTime": 93.08,
+          "Position": "RobotController",
+          "Products": [],
+          "StartTime": 61.735,
+          "State": "Idle"
+        },
+        {
+          "Description": "BusyHandling at RobotController",
+          "Distance": 0.0,
+          "EndTime": 108.835,
+          "Position": "RobotController",
+          "Products": [],
+          "StartTime": 93.08,
+          "State": "BusyHandling"
+        },
+        {
+          "Description": "Waiting for next task at RobotController",
+          "Distance": 0.0,
+          "EndTime": 111.202,
+          "Position": "RobotController",
+          "Products": [],
+          "StartTime": 108.835,
+          "State": "Idle"
+        },
+        {
+          "Description": "BusyHandling at RobotController",
+          "Distance": 0.0,
+          "EndTime": 118.725,
+          "Position": "RobotController",
+          "Products": [],
+          "StartTime": 111.202,
+          "State": "BusyHandling"
+        }
+      ],
+      "Category": "Robots",
+      "ComponentName": "GenericRobot",
+      "DisplayName": "GenericRobot",
+      "GroupName": "RobotController"
+    },
+    {
+      "Activities": [
+        {
+          "Description": "Moving to Shelf Buffer",
+          "Distance": 1475.3516001903324,
+          "EndTime": 12.229,
+          "Position": "Shelf Buffer",
+          "Products": [],
+          "StartTime": 10.0,
+          "State": "Moving"
+        },
+        {
+          "Description": "Picking CopperTurningFixture at Shelf Buffer",
+          "Distance": 4.547473508864641e-13,
+          "EndTime": 14.229,
+          "Position": "Shelf Buffer",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 12.229,
+          "State": "Picking"
+        },
+        {
+          "Description": "Transporting CopperTurningFixture to Manual Workstation",
+          "Distance": 1302.3498230024295,
+          "EndTime": 16.986,
+          "Position": "Manual Workstation",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 14.229,
+          "State": "Transporting"
+        },
+        {
+          "Description": "Placing CopperTurningFixture at Manual Workstation",
+          "Distance": 0.0,
+          "EndTime": 18.986,
+          "Position": "Manual Workstation",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 16.986,
+          "State": "Placing"
+        },
+        {
+          "Description": "Moving to From Conveyor Process",
+          "Distance": 993.0027531455153,
+          "EndTime": 21.06,
+          "Position": "From Conveyor Process",
+          "Products": [],
+          "StartTime": 18.987,
+          "State": "Moving"
+        },
+        {
+          "Description": "Picking Part1 at From Conveyor Process",
+          "Distance": 9.094947017729282e-13,
+          "EndTime": 23.06,
+          "Position": "From Conveyor Process",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 21.06,
+          "State": "Picking"
+        },
+        {
+          "Description": "Transporting Part1 to Manual Workstation",
+          "Distance": 993.0027531455153,
+          "EndTime": 24.808,
+          "Position": "Manual Workstation",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 23.06,
+          "State": "Transporting"
+        },
+        {
+          "Description": "Placing Part1 at Manual Workstation",
+          "Distance": 0.0,
+          "EndTime": 26.808,
+          "Position": "Manual Workstation",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 24.808,
+          "State": "Placing"
+        },
+        {
+          "Description": "Processing  at Manual Workstation",
+          "Distance": 0.0,
+          "EndTime": 36.811,
+          "Position": "Manual Workstation",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 26.809,
+          "State": "Processing"
+        },
+        {
+          "Description": "Waiting for next task at Manual Workstation",
+          "Distance": 0.0,
+          "EndTime": 44.466,
+          "Position": "Manual Workstation",
+          "Products": [],
+          "StartTime": 36.811,
+          "State": "Idle"
+        },
+        {
+          "Description": "Picking Part1 at Manual Workstation",
+          "Distance": 0.0,
+          "EndTime": 46.466,
+          "Position": "Manual Workstation",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 44.466,
+          "State": "Picking"
+        },
+        {
+          "Description": "Transporting Part1 to To Conveyor Process",
+          "Distance": 2466.9778063812764,
+          "EndTime": 49.727,
+          "Position": "To Conveyor Process",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 46.466,
+          "State": "Transporting"
+        },
+        {
+          "Description": "Placing Part1 at To Conveyor Process",
+          "Distance": 0.0,
+          "EndTime": 51.727,
+          "Position": "To Conveyor Process",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 49.727,
+          "State": "Placing"
+        },
+        {
+          "Description": "Moving to From Conveyor Process",
+          "Distance": 1478.8720883118185,
+          "EndTime": 54.134,
+          "Position": "From Conveyor Process",
+          "Products": [],
+          "StartTime": 51.728,
+          "State": "Moving"
+        },
+        {
+          "Description": "Picking Part2 at From Conveyor Process",
+          "Distance": 3.637978807091713e-12,
+          "EndTime": 56.134,
+          "Position": "From Conveyor Process",
+          "Products": [
+            "Part2"
+          ],
+          "StartTime": 54.134,
+          "State": "Picking"
+        },
+        {
+          "Description": "Transporting Part2 to To Conveyor Process",
+          "Distance": 1478.8720883118185,
+          "EndTime": 58.439,
+          "Position": "To Conveyor Process",
+          "Products": [
+            "Part2"
+          ],
+          "StartTime": 56.134,
+          "State": "Transporting"
+        },
+        {
+          "Description": "Placing Part2 at To Conveyor Process",
+          "Distance": 0.0,
+          "EndTime": 60.439,
+          "Position": "To Conveyor Process",
+          "Products": [
+            "Part2"
+          ],
+          "StartTime": 58.439,
+          "State": "Placing"
+        },
+        {
+          "Description": "Waiting for next task at To Conveyor Process",
+          "Distance": 0.0,
+          "EndTime": 65.755,
+          "Position": "To Conveyor Process",
+          "Products": [],
+          "StartTime": 60.441,
+          "State": "Idle"
+        },
+        {
+          "Description": "Moving to From Conveyor Process",
+          "Distance": 1478.8720883118185,
+          "EndTime": 68.161,
+          "Position": "From Conveyor Process",
+          "Products": [],
+          "StartTime": 65.755,
+          "State": "Moving"
+        },
+        {
+          "Description": "Picking Part1 at From Conveyor Process",
+          "Distance": 0.0,
+          "EndTime": 70.161,
+          "Position": "From Conveyor Process",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 68.161,
+          "State": "Picking"
+        },
+        {
+          "Description": "Transporting Part1 to Manual Workstation",
+          "Distance": 993.0027531455162,
+          "EndTime": 71.909,
+          "Position": "Manual Workstation",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 70.161,
+          "State": "Transporting"
+        },
+        {
+          "Description": "Placing Part1 at Manual Workstation",
+          "Distance": 0.0,
+          "EndTime": 73.909,
+          "Position": "Manual Workstation",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 71.909,
+          "State": "Placing"
+        },
+        {
+          "Description": "Processing  at Manual Workstation",
+          "Distance": 0.0,
+          "EndTime": 83.911,
+          "Position": "Manual Workstation",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 73.91,
+          "State": "Processing"
+        },
+        {
+          "Description": "Picking Part1 at Manual Workstation",
+          "Distance": 0.0,
+          "EndTime": 85.911,
+          "Position": "Manual Workstation",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 83.911,
+          "State": "Picking"
+        },
+        {
+          "Description": "Transporting Part1 to To Conveyor Process",
+          "Distance": 2466.9778063812755,
+          "EndTime": 89.171,
+          "Position": "To Conveyor Process",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 85.911,
+          "State": "Transporting"
+        },
+        {
+          "Description": "Placing Part1 at To Conveyor Process",
+          "Distance": 0.0,
+          "EndTime": 91.171,
+          "Position": "To Conveyor Process",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 89.171,
+          "State": "Placing"
+        },
+        {
+          "Description": "Moving to Shelf Buffer",
+          "Distance": 3649.10614983479,
+          "EndTime": 95.214,
+          "Position": "Shelf Buffer",
+          "Products": [],
+          "StartTime": 91.173,
+          "State": "Moving"
+        },
+        {
+          "Description": "Picking CopperTurningFixture at Shelf Buffer",
+          "Distance": 0.0,
+          "EndTime": 97.214,
+          "Position": "Shelf Buffer",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 95.214,
+          "State": "Picking"
+        },
+        {
+          "Description": "Transporting CopperTurningFixture to Manual Workstation",
+          "Distance": 1302.3498230024306,
+          "EndTime": 99.971,
+          "Position": "Manual Workstation",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 97.214,
+          "State": "Transporting"
+        },
+        {
+          "Description": "Placing CopperTurningFixture at Manual Workstation",
+          "Distance": 0.0,
+          "EndTime": 101.971,
+          "Position": "Manual Workstation",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 99.971,
+          "State": "Placing"
+        },
+        {
+          "Description": "Waiting for next task at Manual Workstation",
+          "Distance": 0.0,
+          "EndTime": 110.576,
+          "Position": "Manual Workstation",
+          "Products": [],
+          "StartTime": 101.973,
+          "State": "Idle"
+        },
+        {
+          "Description": "Moving",
+          "Distance": 1389.3929165396694,
+          "EndTime": 112.464,
+          "Position": "",
+          "Products": [],
+          "StartTime": 110.576,
+          "State": "Moving"
+        },
+        {
+          "Description": "Picking CopperTurningFixture",
+          "Distance": 0.0,
+          "EndTime": 114.464,
+          "Position": "",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 112.464,
+          "State": "Picking"
+        },
+        {
+          "Description": "Transporting CopperTurningFixture to Manual Workstation #2",
+          "Distance": 3218.058886353887,
+          "EndTime": 119.088,
+          "Position": "Manual Workstation #2",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 114.464,
+          "State": "Transporting"
+        }
+      ],
+      "Category": "Process Resources",
+      "ComponentName": "Human (Anna) #2",
+      "DisplayName": "Human (Anna) #2",
+      "GroupName": "Human Transport Controller"
+    },
+    {
+      "Activities": [
+        {
+          "Description": "Moving",
+          "Distance": 0.0,
+          "EndTime": 15.667,
+          "Position": "",
+          "Products": [],
+          "StartTime": 12.229,
+          "State": "Moving"
+        },
+        {
+          "Description": "Picking CopperTurningFixture",
+          "Distance": 2931.0454459889625,
+          "EndTime": 17.667,
+          "Position": "",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 15.667,
+          "State": "Picking"
+        },
+        {
+          "Description": "Transporting CopperTurningFixture",
+          "Distance": 3218.058886353887,
+          "EndTime": 22.296,
+          "Position": "",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 17.667,
+          "State": "Transporting"
+        },
+        {
+          "Description": "Placing CopperTurningFixture",
+          "Distance": 1.8189894035458565e-12,
+          "EndTime": 24.296,
+          "Position": "",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 22.296,
+          "State": "Placing"
+        },
+        {
+          "Description": "Waiting for next task",
+          "Distance": 0.0,
+          "EndTime": 25.755,
+          "Position": "",
+          "Products": [],
+          "StartTime": 24.298,
+          "State": "Idle"
+        },
+        {
+          "Description": "Moving to From Conveyor Process",
+          "Distance": 1026.7494347423199,
+          "EndTime": 27.835,
+          "Position": "From Conveyor Process",
+          "Products": [],
+          "StartTime": 25.755,
+          "State": "Moving"
+        },
+        {
+          "Description": "Picking Part2 at From Conveyor Process",
+          "Distance": 1.8189894035458565e-12,
+          "EndTime": 29.835,
+          "Position": "From Conveyor Process",
+          "Products": [
+            "Part2"
+          ],
+          "StartTime": 27.835,
+          "State": "Picking"
+        },
+        {
+          "Description": "Transporting Part2 to To Conveyor Process",
+          "Distance": 1478.8720883118185,
+          "EndTime": 32.141,
+          "Position": "To Conveyor Process",
+          "Products": [
+            "Part2"
+          ],
+          "StartTime": 29.835,
+          "State": "Transporting"
+        },
+        {
+          "Description": "Placing Part2 at To Conveyor Process",
+          "Distance": 1.8189894035458565e-12,
+          "EndTime": 34.141,
+          "Position": "To Conveyor Process",
+          "Products": [
+            "Part2"
+          ],
+          "StartTime": 32.141,
+          "State": "Placing"
+        },
+        {
+          "Description": "Waiting for next task at To Conveyor Process",
+          "Distance": 0.0,
+          "EndTime": 35.755,
+          "Position": "To Conveyor Process",
+          "Products": [],
+          "StartTime": 34.143,
+          "State": "Idle"
+        },
+        {
+          "Description": "Moving to From Conveyor Process",
+          "Distance": 1478.8720883118203,
+          "EndTime": 38.161,
+          "Position": "From Conveyor Process",
+          "Products": [],
+          "StartTime": 35.755,
+          "State": "Moving"
+        },
+        {
+          "Description": "Picking Part2 at From Conveyor Process",
+          "Distance": 3.637978807091713e-12,
+          "EndTime": 40.161,
+          "Position": "From Conveyor Process",
+          "Products": [
+            "Part2"
+          ],
+          "StartTime": 38.161,
+          "State": "Picking"
+        },
+        {
+          "Description": "Transporting Part2 to To Conveyor Process",
+          "Distance": 1478.8720883118185,
+          "EndTime": 42.466,
+          "Position": "To Conveyor Process",
+          "Products": [
+            "Part2"
+          ],
+          "StartTime": 40.161,
+          "State": "Transporting"
+        },
+        {
+          "Description": "Placing Part2 at To Conveyor Process",
+          "Distance": 5.4569682106375694e-12,
+          "EndTime": 44.466,
+          "Position": "To Conveyor Process",
+          "Products": [
+            "Part2"
+          ],
+          "StartTime": 42.466,
+          "State": "Placing"
+        },
+        {
+          "Description": "Moving",
+          "Distance": 3513.6755626059294,
+          "EndTime": 48.395,
+          "Position": "",
+          "Products": [],
+          "StartTime": 44.467,
+          "State": "Moving"
+        },
+        {
+          "Description": "Picking CopperTurningFixture",
+          "Distance": 0.0,
+          "EndTime": 50.395,
+          "Position": "",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 48.395,
+          "State": "Picking"
+        },
+        {
+          "Description": "Transporting CopperTurningFixture to Manual Workstation",
+          "Distance": 1576.2963844362348,
+          "EndTime": 53.088,
+          "Position": "Manual Workstation",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 50.395,
+          "State": "Transporting"
+        },
+        {
+          "Description": "Placing CopperTurningFixture at Manual Workstation",
+          "Distance": 0.0,
+          "EndTime": 55.088,
+          "Position": "Manual Workstation",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 53.088,
+          "State": "Placing"
+        },
+        {
+          "Description": "Waiting for next task at Manual Workstation",
+          "Distance": 0.0,
+          "EndTime": 55.755,
+          "Position": "Manual Workstation",
+          "Products": [],
+          "StartTime": 55.09,
+          "State": "Idle"
+        },
+        {
+          "Description": "Moving to From Conveyor Process",
+          "Distance": 993.0027531455162,
+          "EndTime": 57.828,
+          "Position": "From Conveyor Process",
+          "Products": [],
+          "StartTime": 55.755,
+          "State": "Moving"
+        },
+        {
+          "Description": "Picking Part1 at From Conveyor Process",
+          "Distance": 0.0,
+          "EndTime": 59.828,
+          "Position": "From Conveyor Process",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 57.828,
+          "State": "Picking"
+        },
+        {
+          "Description": "Transporting Part1 to Manual Workstation #2",
+          "Distance": 1026.7494347423199,
+          "EndTime": 61.63,
+          "Position": "Manual Workstation #2",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 59.828,
+          "State": "Transporting"
+        },
+        {
+          "Description": "Placing Part1 at Manual Workstation #2",
+          "Distance": 0.0,
+          "EndTime": 63.63,
+          "Position": "Manual Workstation #2",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 61.63,
+          "State": "Placing"
+        },
+        {
+          "Description": "Processing  at Manual Workstation #2",
+          "Distance": 0.0,
+          "EndTime": 73.632,
+          "Position": "Manual Workstation #2",
+          "Products": [],
+          "StartTime": 63.631,
+          "State": "Processing"
+        },
+        {
+          "Description": "Picking Part1 at Manual Workstation #2",
+          "Distance": 0.0,
+          "EndTime": 75.632,
+          "Position": "Manual Workstation #2",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 73.632,
+          "State": "Picking"
+        },
+        {
+          "Description": "Transporting Part1 to To Conveyor Process",
+          "Distance": 1128.9513999260998,
+          "EndTime": 78.075,
+          "Position": "To Conveyor Process",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 75.632,
+          "State": "Transporting"
+        },
+        {
+          "Description": "Placing Part1 at To Conveyor Process",
+          "Distance": 3.637978807091713e-12,
+          "EndTime": 80.075,
+          "Position": "To Conveyor Process",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 78.075,
+          "State": "Placing"
+        },
+        {
+          "Description": "Moving",
+          "Distance": 3512.959733970787,
+          "EndTime": 84.004,
+          "Position": "",
+          "Products": [],
+          "StartTime": 80.077,
+          "State": "Moving"
+        },
+        {
+          "Description": "Picking CopperTurningFixture",
+          "Distance": 3.637978807091713e-12,
+          "EndTime": 86.004,
+          "Position": "",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 84.004,
+          "State": "Picking"
+        },
+        {
+          "Description": "Transporting CopperTurningFixture to Manual Workstation #2",
+          "Distance": 3428.6728110053846,
+          "EndTime": 90.69,
+          "Position": "Manual Workstation #2",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 86.004,
+          "State": "Transporting"
+        },
+        {
+          "Description": "Placing CopperTurningFixture at Manual Workstation #2",
+          "Distance": 0.0,
+          "EndTime": 92.69,
+          "Position": "Manual Workstation #2",
+          "Products": [
+            "CopperTurningFixture"
+          ],
+          "StartTime": 90.69,
+          "State": "Placing"
+        },
+        {
+          "Description": "Moving to From Conveyor Process",
+          "Distance": 1026.7494347423199,
+          "EndTime": 94.772,
+          "Position": "From Conveyor Process",
+          "Products": [],
+          "StartTime": 92.691,
+          "State": "Moving"
+        },
+        {
+          "Description": "Picking Part1 at From Conveyor Process",
+          "Distance": 0.0,
+          "EndTime": 96.772,
+          "Position": "From Conveyor Process",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 94.772,
+          "State": "Picking"
+        },
+        {
+          "Description": "Transporting Part1 to Manual Workstation #2",
+          "Distance": 1026.7494347423199,
+          "EndTime": 98.574,
+          "Position": "Manual Workstation #2",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 96.772,
+          "State": "Transporting"
+        },
+        {
+          "Description": "Placing Part1 at Manual Workstation #2",
+          "Distance": 0.0,
+          "EndTime": 100.574,
+          "Position": "Manual Workstation #2",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 98.574,
+          "State": "Placing"
+        },
+        {
+          "Description": "Processing  at Manual Workstation #2",
+          "Distance": 0.0,
+          "EndTime": 110.576,
+          "Position": "Manual Workstation #2",
+          "Products": [],
+          "StartTime": 100.575,
+          "State": "Processing"
+        },
+        {
+          "Description": "Picking Part1 at Manual Workstation #2",
+          "Distance": 0.0,
+          "EndTime": 112.576,
+          "Position": "Manual Workstation #2",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 110.576,
+          "State": "Picking"
+        },
+        {
+          "Description": "Transporting Part1 to To Conveyor Process",
+          "Distance": 1128.9513999260998,
+          "EndTime": 115.019,
+          "Position": "To Conveyor Process",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 112.576,
+          "State": "Transporting"
+        },
+        {
+          "Description": "Placing Part1 at To Conveyor Process",
+          "Distance": 3.637978807091713e-12,
+          "EndTime": 117.019,
+          "Position": "To Conveyor Process",
+          "Products": [
+            "Part1"
+          ],
+          "StartTime": 115.019,
+          "State": "Placing"
+        }
+      ],
+      "Category": "Process Resources",
+      "ComponentName": "Human (Anna)",
+      "DisplayName": "Human (Anna)",
+      "GroupName": "Human Transport Controller"
+    }
+  ],
+  "Scenario": "Scenario1",
+  "SimulationDuration": "0:02:00"
+}
