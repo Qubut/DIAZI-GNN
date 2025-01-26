@@ -13,6 +13,7 @@ pkgs.mkShell {
   ];
 
   shellHook = ''
+    poetry install
     echo "Run 'jupyter lab' to start the Jupyter interface."
   '';
 }
